@@ -1,0 +1,140 @@
+/* **** Configuração geral **** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #CCC url('imagens/fundo.png');
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+/* **** Configuração principal **** */
+#principal {
+    width: 900px;
+    margin: auto;
+}
+
+/* **** Menu links **** */
+
+#menu {
+    background: rgb(175, 173, 173);
+    text-align: right;
+    padding: 15px;
+}
+#menu a:hover {
+    color: rgb(175, 173, 173);
+    background: #FFF;
+}
+
+#menu a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+}
+
+/* *********************************************** */
+
+#conteudo {
+    background: rgb(255, 252, 252);
+    padding: 10px;
+}
+
+/* **** Elemento flutuante **** */
+
+.lateral {
+    background: rgb(241, 241, 241);
+    padding: 25px;
+    width: 250px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/* *********************************************** */
+h1 {
+    color: rgb(74, 74, 75);
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* **** Rodapé  **** */
+
+#rodape {
+    text-align: center;
+    padding: 15px;
+}
+
+.sobretra {
+    margin-left: 80px;
+    border: 5px solid gray;
+}
+
+.sobretra1 {
+    border: 5px solid gray;
+}
+
+/* *********************************************** */
+
+.planta1 {
+    border: 2px solid #FFF;
+    width: 430px;
+    margin-top: 15px;
+    float: left;
+}
+
+.planta1 a {
+    text-decoration: none;
+}
+
+/* *********************************************** */
+
+.cafeteria01 {
+    width: 600px;
+    margin-top: 15px;
+    float: left;
+}
+
+.cafeteria01 img {
+    border: 5px solid gray;
+}
+
+/* *********************************************** */
+
+#area-lateral {
+    border: 2px solid gray;
+    width: 200px;
+    float: right;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#area-lateral a {
+    text-decoration: none;
+}
+
+/* **** Formulário **** */
+
+#forms1 {
+    background: rgb(207, 205, 205);
+    text-align: left;
+    margin: auto;
+    width: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botao1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 3px;
+}
